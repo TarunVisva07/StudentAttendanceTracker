@@ -157,4 +157,47 @@ Class Professor :
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
+Class StudentScreen :
+ 
+ UI details :
+ 
+ - StudentScreen creates a JFrame that contains a table to display the attendance detail for all the subjects
+ - In the right side of the screen it displays the student's name , class and date
 
+ Code details :
+ 
+ - Constructor StudentScreen() takes the string argument roll no to display the roll no and has the method which returns the other details
+ - getRootPanel() call the necessary functions to create the root panel
+ - getClasstext() call the necessary functions to create a text field in which the class name is returned
+ - getNametext() call the necessary functions to create a text field in which the Students name is returned
+ - getDatetext() call the necessary functions to create a text field in which the date is returned
+ - createTable() takes a JTabel parameter and populates the table with necessary contents
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+SIGN-UP GUI
+
+TWO PANELS:
+	1. Student Panel:
+		-Creates a student account with the following details:
+			-name, roll number, password
+	
+	2. Faculty Panel:
+		-Creates a tutor/professor account with the following details:
+			-name, email, password
+
+RADIO BUTTONS:
+	Two radio buttons - student and faculty. To switch between student and faculty panel.
+
+CLASS SignUp:
+	switchpanel( ) - displays the appropriate panel when clicked on student and faculty radio buttons.
+	
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+LogInScreen :
+
+UI design:
+ - User can enter the username and password in the provided text fields
+ - sign in button will take you to the respective page on click if the credentials are correct
+ - sign up button will take you to the sign up screen
+ - the radiobutton is used to select is the user is a faculty and not student
