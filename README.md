@@ -1,10 +1,10 @@
 # StudentAttendanceTracker
 		Student Attendance Tracker
 
-contributors:
+Contributors:
  - Kamalraj D
  - Dharma durai V
- - Tharun viswa
+ - Tarun Visva R
  - Pawan Kumar
  - Harish J
  - Nikhil 
